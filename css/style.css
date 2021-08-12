@@ -1,0 +1,187 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    
+    header {
+        background-color: #0c0c0c;
+        color: white;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    /* for background */
+    
+    .background {
+        background: rgb(0 0 0 / 40%) url('../img/bg2.jpg');
+        background-size: cover;
+        background-blend-mode: normal;
+        height: 664px;
+        display: flex;
+    }
+    /* main container */
+    
+    .container {
+        /* border: 2px solid black; */
+        box-shadow: 23px 10px 47px 7px #202020;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 40px;
+        padding-left: 80px;
+        background: transparent;
+        margin: 70px 200px;
+        align-items: flex-start;
+    }
+    
+    .Account {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        justify-content: space-between;
+    }
+    
+    .Account h3 a {
+        display: flex;
+        color: #000000;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    
+    .Account h3 a:hover {
+        text-decoration: underline;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #0a0a0a;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    /* userid password */
+    
+    .input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        width: 25%
+    }
+    
+    .input input {
+        background: transparent;
+        outline: 0;
+        border: 0;
+        border-bottom: #000000 1px solid;
+        padding-bottom: 3px;
+        margin-bottom: 15px;
+        font-size: 18px;
+        color: #080808;
+    }
+    
+     ::placeholder {
+        color: #000000;
+        opacity: 0.7;
+    }
+    
+    .submit {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        width: 25%
+    }
+    
+    .btn {
+        margin: 0px 8px;
+        padding: 4.5px 20px;
+        cursor: pointer;
+        background: #0e0e0e;
+        border: 1px solid #000000;
+        border-radius: 2px;
+        color: #fbffff;
+        transition: 0.5s all ease;
+        font-size: 15px;
+    }
+    
+    .btn:hover {
+        background-color: #fbffff;
+        color: #000000;
+        border: 1px solid #ffffff;
+    }
+    
+    h4 {
+        text-align: center;
+        padding-bottom: 10px;
+        color: #000000;
+        font-size: 12px;
+        width: 25%;
+        margin: 8px 0;
+    }
+    /* Other linking sites */
+    
+    .connect-buttons {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        width: 25%;
+    }
+    
+    .connect-buttons button {
+        cursor: pointer;
+        outline: 0;
+        padding: 5px;
+        margin-bottom: 10px;
+        justify-content: left;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        transition: 0.5s all ease;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        border-radius: 20px;
+        background-color: white;
+        border: 1px solid white;
+        color: black;
+    }
+    
+    #f {
+        background-color: #4161bb;
+        color: white;
+        border: 1px solid #4161bb;
+    }
+    
+    .connect-buttons button:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: black;
+        letter-spacing: 1px;
+    }
+    
+    .connect-buttons img {
+        display: flex;
+        justify-content: flex-start;
+        width: 20px;
+        height: 20px;
+        margin: 0 2px;
+        align-items: center;
+    }
+    /* foooter */
+    
+    footer {
+        background-color: #000000;
+        color: white;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
